@@ -153,7 +153,7 @@
     .greet{
 
         font-size:30px;
-        position: fixed;
+        position: absolute;
         margin-left: -50px;
     }
     .info{
@@ -167,7 +167,7 @@
         font-size: 30px;
     }
     .contacts{
-        margin-left: auto;
+        margin-left: -20px;
     }
     .logo{
         width:25px;
