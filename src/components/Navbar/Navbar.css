@@ -134,6 +134,9 @@ header{
   
 }
 
+header h2{
+  color: rgb(144, 40, 40);
+}
 .nav-list{
   display: flex;
   align-items: center;
