@@ -191,7 +191,7 @@ header .nav-btn{
     position: fixed;
     top:0;
     right: 0;
-    height: 25%;
+    height: 390px;
     width: 40%;    
     background-color: var(--mainColor);
     opacity: 0.95;
