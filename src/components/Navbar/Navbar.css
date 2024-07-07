@@ -197,6 +197,7 @@ header .nav-btn{
     opacity: 0.95;
     transition: 1s;
     transform: translateY(-200vh);
+    z-index:1;
   }
 
   .nav-list{
