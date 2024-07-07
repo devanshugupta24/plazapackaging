@@ -1,0 +1,199 @@
+.mainpage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    display: block;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.info {
+    font-size: 28px;
+    color: rgb(73, 25, 25);
+    font-family: "LXGW WenKai TC", cursive;
+    text-shadow: 0px 0px 3px rgb(179, 97, 97);
+}
+
+.greet {
+    margin-top: 0;
+    color: rgb(73, 25, 25);
+    display: flex;
+    font-size: 42px;
+    font-family: "Roboto Slab", serif;
+}
+
+.name {
+    margin-left: 13px;
+    color: rgb(73, 25, 25);
+    font-size: 42px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: animation 3s steps(14) infinite;
+    border-right: 3px solid rgb(108, 28, 28);
+    line-height: 50px;
+    text-shadow: 0px 0px 3px rgb(190, 52, 52);
+    margin-top: 2.5px;
+}
+
+@keyframes animation {
+    0% {
+        width: 0ch;
+    }
+
+    45% {
+        width: 14.5ch;
+    }
+
+    55% {
+        width: 14.5ch;
+    }
+
+    100% {
+        width: 0ch;
+    }
+}
+
+.photo {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    box-shadow: 0px 0px 18px rgb(190, 52, 52);
+    border-radius: 50%;
+    margin-left: 62%;
+    margin-top: 6%;
+    transition: transform 0.2s ease;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+}
+
+.photo_logo{
+    width:90px;
+    height:90px;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgb(190, 52, 52);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.contacts {
+    position: absolute;
+    align-items: center;
+    margin-left: 65px;
+}
+
+.logo {
+    height: 35px;
+    width: 35px;
+    z-index: 1;
+    margin-top: 172%;
+    border-radius: 50%;
+    margin-left: 15px;
+    transition: transform 0.2s ease;
+    box-shadow: 0px 0px 8px rgb(190, 52, 52);
+}
+
+.logo:hover {
+    box-shadow: 0px 0px 10px rgb(190, 52, 52);
+    transform: scale(1.15);
+}
+
+@media only screen and (max-width:950px){
+     
+    .intro{
+        margin-left:30px;
+    }
+    .greet{
+        font-size:32px;
+    }
+    .info{
+        font-size: 21px;
+    }
+    .name{
+        margin-top: -6px;
+        font-size: 32px;
+    }
+    .contacts{
+        margin-left: 20px;
+    }
+    .logo{
+        width:25px;
+        height: 25px;
+        margin-top:195%;
+    }
+    .photo{
+        height: 230px;
+        width: 230px;
+        margin-top: 11%;
+    }    
+    .photo_logo{
+        width:70px;
+        height: 70px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:650px){
+     
+    .mainpage{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .intro{
+        margin-top: 155px;
+    }
+    .greet{
+
+        font-size:30px;
+        position: fixed;
+        margin-left: -50px;
+    }
+    .info{
+        margin-left: -25px;
+ 
+        margin-top: 18%;
+        font-size: 18px;
+    }
+    .name{
+
+        font-size: 30px;
+    }
+    .contacts{
+        margin-left: auto;
+    }
+    .logo{
+        width:25px;
+        height: 25px;
+        margin-top: 205%;
+        
+
+    }
+    .photo_logo{
+        height: 90px;
+        width: 90px;
+        position: absolute;
+        margin-top:33px;
+        margin-left: auto;
+  
+    }
+
+    .photo{
+        height:180px;
+        width: 180px;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: auto;
+        border-radius: 0;
+
+    }
+  
+}
+
