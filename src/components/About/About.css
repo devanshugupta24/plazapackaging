@@ -138,4 +138,8 @@
     .picleft{
         margin-left: 4px;
     }
+
+    .picright{
+        margin-right: 5px;
+    }
 }
