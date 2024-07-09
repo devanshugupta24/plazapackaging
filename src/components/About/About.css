@@ -132,14 +132,11 @@
         margin-left: -10px;
     }
     .descriptionleft{
-        margin-left: -10px;
+        margin-left: -40px;
     }
-
-    .picleft{
+    .descriptionright{
         margin-left: 4px;
     }
 
-    .picright{
-        margin-right: 5px;
-    }
+
 }
