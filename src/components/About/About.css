@@ -121,15 +121,15 @@
         margin-top:270px;
     }
     .pic{
-        height:120px;
-        width: 140px;  
+        height:115px;
+        width: 135px;  
     }
     .description{
         font-size: 10px;
     }
 
     .picleft{
-        margin-left: -10px;
+        margin-left: -15px;
     }
     .descriptionleft{
         margin-left: -40px;
@@ -137,6 +137,7 @@
     .descriptionright{
         margin-left: 4px;
     }
+
 
 
 }
