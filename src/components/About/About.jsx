@@ -27,7 +27,7 @@ export default function About(){
              Technology , Mesra in Electronics and Communication Engineering.Currently 
              , I am a pre final year student, where I developed strong foundationsin electronics and communication
              systems and a variety of programming languages and other skills.<br></br><br></br>&nbsp;&nbsp;&nbsp;
-            </p>
+             </p>
             </div>
             <div className="rightphoto">
                 <img className="pic picright"src="dev image.jpeg"></img>
