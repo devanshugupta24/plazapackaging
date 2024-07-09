@@ -1,0 +1,135 @@
+.aboutme{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:215px;
+    margin-left:60px;
+    
+}
+
+
+.description{
+    color:rgb(49, 17, 17);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
+  
+}
+
+.pic{
+    width:500px;
+    height:140px;
+    border-radius: 15px;
+    box-shadow:0px 0px 18px brown;
+    transition:transform 0.2s ease;
+}
+.pic:hover{
+    transform:scale(1.1);
+}
+
+.content{
+  margin-top: 25px;
+}
+
+.content_left{
+    margin-top: 30px;
+}
+
+.picright{
+    margin-left: 50px;
+}
+
+.picleft{
+    margin-left: 20px;
+}
+
+.descriptionright{
+    margin-right: 25px;
+}
+
+.descriptionleft{
+    margin-left: -20px;
+}
+
+
+
+
+@media only screen and (max-width:1250px){
+    .pic{
+        width:400px;
+        height:140px;
+        margin-left: 30px;
+        position:relative;
+       
+    } 
+
+ 
+} 
+
+@media only screen and (max-width:970px){
+    .pic{
+        width:300px;
+        height:120px;
+        margin-left: 20px;
+        position:relative;
+       
+    } 
+
+    .description{
+        font-size: 14px;
+    }
+   
+    .picleft{
+        margin-left: 15px;
+    }
+
+}
+
+@media only screen and (max-width:970px){
+
+    .pic{
+        width:280px;
+        border-radius: 50%;
+    }
+
+    .picright{
+        margin-left: 11%;
+    }
+}
+
+@media only screen and (max-width:710px){
+
+    .aboutme{
+        margin-top: 275px;
+    }
+    .pic{
+        height:120px;
+        width: 220px;  
+    }
+    .picleft{
+        margin-left: -8px;
+    }
+
+    .description{
+        font-size: 13px;
+    }
+  
+}
+
+@media only screen and (max-width:550px){
+    
+    .aboutme{
+        margin-top:270px;
+    }
+    .pic{
+        height:120px;
+        width: 140px;  
+    }
+    .description{
+        font-size: 10px;
+    }
+
+    .picleft{
+        margin-left: -10px;
+    }
+    
+}

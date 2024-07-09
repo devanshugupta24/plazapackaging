@@ -1,13 +1,14 @@
+import './App.css';
 import Navbar from "./components/Navbar/Navbar";
-import './App.css'
 import MainPage from "./components/MainPage/MainPage";
-
+import About from './components/About/About';
 function App(){
 
   return (
     <>
     <Navbar/>
     <MainPage/>
+    <About/>
      </>
   )
 }
