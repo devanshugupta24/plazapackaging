@@ -12,7 +12,7 @@ export default function About(){
             </div>
             <div className="content contentleft">
 
-            <p className="description descriptionleft">Hi,I am simran Gupta currently persuing B.tech from Birla Institute of
+            <p className="description descriptionleft">Hi,I am Devanshu Gupta currently persuing B.tech from Birla Institute of
              Technology , Mesra in Electronics and Communication Engineering.Currently 
              , I am a pre final year student, where I developed strong foundationsin electronics and communication
              systems and a variety of programming languages and other skills.<br></br><br></br>&nbsp;&nbsp;&nbsp;
@@ -23,7 +23,7 @@ export default function About(){
            <div className="content_right">
             <div className="content contentright">
 
-            <p className="description descriptionright">Hi,I am simran Gupta currently persuing B.tech from Birla Institute of
+            <p className="description descriptionright">Hi,I am Devanshu Gupta currently persuing B.tech from Birla Institute of
              Technology , Mesra in Electronics and Communication Engineering.Currently 
              , I am a pre final year student, where I developed strong foundationsin electronics and communication
              systems and a variety of programming languages and other skills.<br></br><br></br>&nbsp;&nbsp;&nbsp;
